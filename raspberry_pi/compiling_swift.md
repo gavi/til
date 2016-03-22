@@ -61,6 +61,7 @@ Compile Release version using jobs=1
 
 ```
 cd swift
+utils/update-checkout —clone
 utils/build-script -R -j 1
 ```
 
