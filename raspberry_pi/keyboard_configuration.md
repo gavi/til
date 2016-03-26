@@ -9,7 +9,7 @@ sudo nano /etc/default/keyboard
 Change the following key to `us`
 
 ```
-XKBLAYOUT=“us”
+XKBLAYOUT="us"
 ```
 
 Save the file and `sudo reboot`
