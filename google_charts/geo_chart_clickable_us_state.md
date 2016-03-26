@@ -1,4 +1,4 @@
-# Basic US Map with clickable states using Google GeoChart
+# US Map with clickable states using Google GeoChart
 
 The requirement was for a quick clickable US Map with clickable states. We had multiple options like
 
