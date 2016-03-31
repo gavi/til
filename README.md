@@ -8,6 +8,7 @@ https://github.com/jbranchaud/til
 - [Install Rasbian Lite](raspberry_pi/install_raspbian_lite.md)
 - [Keyboard layout in Command Line](raspberry_pi/keyboard_configuration.md)
 - [Wifi Config in Command Line](raspberry_pi/wifi_config_commandline.md	)
+- [Static IP Address on Wireless](raspberry_pi/ip_manual_config.md	)
 - [Compiling Swift](raspberry_pi/compiling_swift.md)
 
 

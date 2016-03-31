@@ -1,4 +1,4 @@
-# Setting IP Adress manually
+# Setting Static IP Adress on Raspberry Pi 3 - Wireless LAN
 
 Edit the file 
 
