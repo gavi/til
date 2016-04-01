@@ -68,6 +68,31 @@ http://localhost:8080
 
 There is no username/password
 
+### REPL
+
+Install rethinkdb client for python
+
+```
+pip install rethinkdb
+```
+
+Then start interactive pythnon console
+
+```
+python
+```
+
+In python you can do the following
+
+```
+>>> import rethinkdb as r
+>>> r.connect('localhost',28015).repl()
+>>> list(r.db('rethinkdb').table('server_status').run())
+```
+
+You can write any ReQL now just using the `r` 
+
+
 
 
 
