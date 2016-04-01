@@ -4,6 +4,10 @@ This repository is a collection of things I learned. Its based on the original i
 
 https://github.com/jbranchaud/til
 
+
+### RethinkDB
+- [RethinkDB Basics](rethinkdb/rethinkdb_basics.md)
+
 ### Raspberry Pi
 - [Install Rasbian Lite](raspberry_pi/install_raspbian_lite.md)
 - [Keyboard layout in Command Line](raspberry_pi/keyboard_configuration.md)
