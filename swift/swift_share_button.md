@@ -8,7 +8,7 @@ To create basic sharing functionality with some text and an image here is a quic
 		let img: NSImage = Util.getScreenshot(viewController!.view)
 		var arr: [AnyObject] = [AnyObject]()
 		arr.append(img)
-		arr.append("\(fileName!)")
+		arr.append("Cross Section of Manhattan")
 		arr.append("@objectgraph")
 		arr.append("https://itunes.apple.com/us/app/id1096825035")
 		let sharingServicePicker: NSSharingServicePicker = NSSharingServicePicker(items: arr)
