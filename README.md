@@ -4,7 +4,6 @@ This repository is a collection of things I learned. Its based on the original i
 
 https://github.com/jbranchaud/til
 
-
 ### RethinkDB
 - [RethinkDB Basics](rethinkdb/rethinkdb_basics.md)
 
@@ -23,3 +22,7 @@ https://github.com/jbranchaud/til
 ### Google Charts
 
 - [Basic US Map with clickable States](google_charts/geo_chart_clickable_us_state.md)
+
+### Swift
+- [Draw a background Color for NSView in Swift](swift/swift_color_as_nsview_background.md)
+- [NSImage as a background of NSView in Swift](swift/swift_image_as_nsview_background.md)
