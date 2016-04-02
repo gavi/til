@@ -26,3 +26,5 @@ https://github.com/jbranchaud/til
 ### Swift
 - [Draw a background Color for NSView in Swift](swift/swift_color_as_nsview_background.md)
 - [NSImage as a background of NSView in Swift](swift/swift_image_as_nsview_background.md)
+- [Capture NSView as an Image in Swift](swift/swift_capure_nsview_as_image.md)
+
