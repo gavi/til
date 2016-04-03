@@ -49,3 +49,16 @@ Copy the image using `dd`. Be extremely careful as you can wipe out your hard di
 ```
 sudo dd if=2016-03-18-raspbian-jessie-lite.img of=/dev/rdisk2 bs=1m
 ```
+
+### Expand Storage after Boot
+
+After you boot to your Rasbian lite, If you check the free space using `df -h` you will see not the entire storage is being used. If you would like to expand the storage. After logging on with default username `pi` and password `raspberry` - Run the following command
+
+```
+sudo raspi-config
+
+```
+Then first option is to expand storage. Just click on it and reboot
+
+[raspi-config screenshot](http://webapps.objectgraph.com/til/img/raspi-config.png)
+
