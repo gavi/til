@@ -60,5 +60,5 @@ sudo raspi-config
 ```
 Then first option is to expand storage. Just click on it and reboot
 
-[raspi-config screenshot](http://webapps.objectgraph.com/til/img/raspi-config.png)
+![raspi-config screenshot](http://webapps.objectgraph.com/til/img/raspi-config.png)
 
