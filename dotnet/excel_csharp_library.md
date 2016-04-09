@@ -26,7 +26,7 @@ static void Main(string[] args) {
     worksheet.Cells.Style.Font.Size = 11; //Default font size for whole sheet
     worksheet.Cells.Style.Font.Name = "Calibri";
     //Add the Content 
-    worksheet.Cells[1,1].Value="Hello, World!"
+    worksheet.Cells[1,1].Value="Hello, World!";
     excel.Save();
 
 }
