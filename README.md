@@ -29,3 +29,5 @@ https://github.com/jbranchaud/til
 - [Capture NSView as an Image in Swift](swift/swift_capure_nsview_as_image.md)
 - [Sharing functionality in Swift](swift/swift_share_button.md)
 
+### DotNet
+- [Generate Excel Files Programmatically](dotnet/excel_csharp_library.md)
