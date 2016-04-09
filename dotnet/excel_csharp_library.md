@@ -9,13 +9,13 @@ The software is licensed under LGPL.
 Creating a basic Excel file is straightforward. Import the following
 
 
-```chsarp
+```csharp
 using OfficeOpenXml;
 using System.IO;
 ```
 Create the excel file
 
-```chsarp
+```csharp
 static void Main(string[] args) {
 
     FileInfo excelFile = new FileInfo(@"sample.xlsx");
