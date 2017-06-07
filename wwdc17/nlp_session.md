@@ -17,7 +17,8 @@ print(tagger.dominantLanguage!)
 
 
 ```swift
-tagger.enumerateTags(in: range, unit: .word, scheme:.lemma, options: [.omitPunctuation, .omitWhitespace]) { tag, tokenRange, _ in
+tagger.enumerateTags(in: range, unit: .word, scheme:.lemma, options: [.omitPunctuation, .omitWhitespace]) { 
+    tag, tokenRange, _ in
     let token = (str as NSString).substring(with: tokenRange)
     // Each word of the text is inserted into the result set (in lowercase form).
     print("word:\(token.lowercased())")
