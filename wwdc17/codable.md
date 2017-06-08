@@ -40,7 +40,11 @@ if let point=obj{
 
 ```
 
-A little bit more complicated example 
+
+
+## Renaming the json keys 
+
+A little bit more complicated example where we are renaming the keys from `formatted_address` to `formattedAddress`. The one issue with this approach is once you override the Codable keys, you will have to put all the items at that level.
 
 ```swift
 let geoResult="""
@@ -91,9 +95,6 @@ do{
     print("error")
 }
 ```
-
-## Renaming the json keys 
-
 
 ## Error handling
 
