@@ -40,6 +40,58 @@ if let point=obj{
 
 ```
 
+A little bit more complicated example 
+
+```swift
+let geoResult="""
+{
+  "results": [
+    {
+      "formatted_address": "1600 Amphitheatre Parkway, Mountain View, CA 94043, USA",
+      "geometry": {
+        "location": {
+          "lat": 37.4224764,
+          "lng": -122.0842499
+        }
+      }
+    }
+  ],
+  "status": "OK"
+}
+""".data(using: .utf8)!
+
+struct GeocodingService:Codable{
+    var status:String
+    var results:[GeocodingResult]
+}
+
+struct GeocodingResult:Codable{
+    struct Geometry:Codable{
+        struct Location:Codable{
+            let lat:Float
+            let lng:Float
+        }
+        let location:Location
+    }
+    let formattedAddress:String
+    let geometry:Geometry
+    private enum CodingKeys: String, CodingKey {
+        case formattedAddress = "formatted_address"
+        case geometry
+    }
+}
+
+let decoder=JSONDecoder()
+do{
+    let obj=try decoder.decode(GeocodingService.self, from: geoResult)
+    for result in obj.results{
+        print("(\(result.geometry.location.lat),\(result.geometry.location.lng))")
+    }
+}catch{
+    print("error")
+}
+```
+
 ## Renaming the json keys 
 
 
