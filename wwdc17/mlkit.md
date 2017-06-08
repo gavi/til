@@ -91,6 +91,10 @@ coreml_model.short_description = 'Predicts the iris species provided the sepal l
 coreml_model.save('iris.mlmodel')
 ```
 
+For the sample project that consumes this model, please check here.
+
+https://github.com/gavi/Iris
+
 
 
 
