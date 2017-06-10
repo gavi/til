@@ -31,3 +31,9 @@ https://github.com/jbranchaud/til
 
 ### DotNet
 - [Generate Excel Files Programmatically](dotnet/excel_csharp_library.md)
+
+### WWDC 2017
+- [NLP Text classificaiton and tokenization](wwdc17/nlp.md)
+- [JSON Encoding and Decoding using Codable protocol](wwdc17/codable.md)
+- [MLKit - How to use and generate .mlmodel files](wwdc17/mlkit.md)
+
