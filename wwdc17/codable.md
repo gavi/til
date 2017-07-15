@@ -40,11 +40,9 @@ if let point=obj{
 
 ```
 
-
-
 ## Renaming the json keys 
 
-A little bit more complicated example where we are renaming the keys from `formatted_address` to `formattedAddress`. The one issue with this approach is once you override the Codable keys, you will have to put all the items at that level.
+A little bit more complicated example where we are renaming the keys from `formatted_address` to `formattedAddress`. 
 
 ```swift
 let geoResult="""
@@ -92,15 +90,19 @@ do{
         print("(\(result.geometry.location.lat),\(result.geometry.location.lng))")
     }
 }catch{
-    print("error")
+    print("\(error)")
 }
 ```
 
 ## Error handling
 
+Use the catch block to print out errors
 
-## Nested Structures
+```swift
+do{
 
-
-## Ignoring stuff that you do not need in your model
+}catch{
+    print("\(error)")
+}
+```
 
