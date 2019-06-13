@@ -6,7 +6,7 @@ Codable protocol in Foundation enables JSON encoding and decoding.
 The below example shows 2 floats plus a date object. Note the date encoding strategy
 
 ```swift
-import UIKit
+import Foundation
 
 struct Point:Codable{
     var x:Float
