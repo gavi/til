@@ -31,6 +31,8 @@ https://github.com/jbranchaud/til
 
 ### DotNet
 - [Generate Excel Files Programmatically](dotnet/excel_csharp_library.md)
+- [WebAPI with Dapper and Bcrypt](dotnet/quick_webapi_dapper.md)
+
 
 ### WWDC 2017
 - [NLP Text classificaiton and tokenization](wwdc17/nlp.md)
