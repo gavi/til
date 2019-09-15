@@ -1,4 +1,4 @@
-# Quick Web API with Dapper using only Command line .NET core 2.2 
+# Web API with Dapper and Bcrypt .NET core 2.2 
 
 We could quickly create a web api that connects to a SQL database in a few steps on the command line.
 
