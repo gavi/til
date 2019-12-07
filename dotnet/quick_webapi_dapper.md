@@ -1,4 +1,4 @@
-# Web API with Dapper and Bcrypt .NET core 2.2 
+# Web API with Dapper and Bcrypt .NET core 3.0
 
 We could quickly create a web api that connects to a SQL database in a few steps on the command line.
 
@@ -20,6 +20,8 @@ This will setup the web api libraries. Now you need to install Dapper. We are al
 ```
 dotnet add package Dapper
 dotnet add package BCrypt.Net-Core --version 1.6.0
+dotnet add package Newtonsoft.Json
+dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson
 ```
 
 This will add Dapper package to you project and add the necessary references. Now you are ready to code.
@@ -137,3 +139,16 @@ namespace AppService.Controllers
 }
 
 ```
+
+### Startup.cs
+Since we want to use Newtonsoft.Json with dotnet core 3, make the following chnages in the repo
+
+```csharp
+ public void ConfigureServices(IServiceCollection services)
+{
+        services.AddControllers().AddNewtonsoftJson(options => {
+        options.SerializerSettings.ContractResolver = new  Newtonsoft.Json.Serialization.DefaultContractResolver();});
+}
+
+```
+
